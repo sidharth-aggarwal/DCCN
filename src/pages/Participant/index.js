@@ -69,7 +69,7 @@ export default function Participant(props) {
   }, [location.state?.roomID, props.rtcPeerConnection]);
 
   // Refs
-  const localVideoRef = useRef(null);
+  const localVideoRef = useRef("video/VALORANT   2023-04-13 00-07-29.mp4");
 
   return (
     <div className="participant-page">
